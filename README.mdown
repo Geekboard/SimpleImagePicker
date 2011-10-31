@@ -1,15 +1,15 @@
 MoreImagePicker
 ===========================
 
-iOS의 UIImagePickerController의 wrapper class
-'MoreImagePicker' is UIImagePickerController wrapper with some Feature
+* iOS의 UIImagePickerController의 wrapper class
+* 'MoreImagePicker' is UIImagePickerController wrapper with some Feature
 
 
 Getting Started
 ===============
 
-Project내의 MoreImagePicker.m .h 파일을 프로젝트에 카피해서 쓰시면 됩니다.
-Just copy MoreImagePicker.m .h file to your project
+* Project내의 MoreImagePicker.m .h 파일을 프로젝트에 카피해서 쓰시면 됩니다.
+* Just copy MoreImagePicker.m .h file to your project
 
 Featurs
 ===============
