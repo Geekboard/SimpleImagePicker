@@ -1,4 +1,4 @@
-MoreImagePicker
+SimpleImagePicker
 ===========================
 
 * iOS의 UIImagePickerController의 wrapper class
