@@ -1,0 +1,11 @@
+Geekboard Open Source Project
+
+MoreImagePicker
+
+'MoreImagePicker' is UIImagePickerController wrapper with some Feature
+
+Feature
+==============
+
+1. Auto Detecting Camera or PhotoLibrary
+2. Delegate Method to process 'Image'
