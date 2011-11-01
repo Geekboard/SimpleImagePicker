@@ -1,0 +1,20 @@
+SimpleImagePicker
+===========================
+
+* iOS의 UIImagePickerController의 wrapper class
+* 'MoreImagePicker' is UIImagePickerController wrapper with some Feature
+
+
+Getting Started
+===============
+
+* Project내의 MoreImagePicker.m .h 파일을 프로젝트에 카피해서 쓰시면 됩니다.
+* Just copy MoreImagePicker.m .h file to your project
+
+Featurs
+===============
+
+* Camera 혹은 PhotoLibrary를 UIActionSheet으로 선택가능하게함. 
+( 카메라가 없는 Device인 경우 카메라 옵션이 제거된 )
+* Display UIActionSheet that User can choose between 'from Camera' and 'Photo Library'
+( if Device don't have Camera, UIActionSheet will not display 'from Camera' option. )
