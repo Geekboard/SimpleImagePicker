@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A09A9807145F85A100BD8510 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09A9806145F85A100BD8510 /* UIKit.framework */; };
+		A09A9809145F85A100BD8510 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09A9808145F85A100BD8510 /* Foundation.framework */; };
+		A09A980B145F85A100BD8510 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09A980A145F85A100BD8510 /* CoreGraphics.framework */; };
+		A09A9811145F85A100BD8510 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A09A980F145F85A100BD8510 /* InfoPlist.strings */; };
+		A09A9813145F85A100BD8510 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A09A9812145F85A100BD8510 /* main.m */; };
+		A09A9817145F85A100BD8510 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A09A9816145F85A100BD8510 /* AppDelegate.m */; };
+		A09A981A145F85A100BD8510 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A09A9819145F85A100BD8510 /* ViewController.m */; };
+		A09A981D145F85A100BD8510 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A09A981B145F85A100BD8510 /* ViewController.xib */; };
+		A09A9825145F85A100BD8510 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09A9824145F85A100BD8510 /* SenTestingKit.framework */; };
+		A09A9826145F85A100BD8510 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09A9806145F85A100BD8510 /* UIKit.framework */; };
+		A09A9827145F85A100BD8510 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09A9808145F85A100BD8510 /* Foundation.framework */; };
+		A09A982F145F85A100BD8510 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A09A982D145F85A100BD8510 /* InfoPlist.strings */; };
+		A09A9832145F85A100BD8510 /* SimpleImagePickerSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A09A9831145F85A100BD8510 /* SimpleImagePickerSampleTests.m */; };
+		A09A983E145F85C900BD8510 /* SimpleImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A09A983D145F85C900BD8510 /* SimpleImagePicker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A09A9828145F85A100BD8510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A09A97F9145F85A100BD8510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A09A9801145F85A100BD8510;
+			remoteInfo = SimpleImagePickerSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A09A9802145F85A100BD8510 /* SimpleImagePickerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleImagePickerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09A9806145F85A100BD8510 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A09A9808145F85A100BD8510 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A09A980A145F85A100BD8510 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A09A980E145F85A100BD8510 /* SimpleImagePickerSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleImagePickerSample-Info.plist"; sourceTree = "<group>"; };
+		A09A9810145F85A100BD8510 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A09A9812145F85A100BD8510 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A09A9814145F85A100BD8510 /* SimpleImagePickerSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleImagePickerSample-Prefix.pch"; sourceTree = "<group>"; };
+		A09A9815145F85A100BD8510 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A09A9816145F85A100BD8510 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A09A9818145F85A100BD8510 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A09A9819145F85A100BD8510 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A09A981C145F85A100BD8510 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A09A9823145F85A100BD8510 /* SimpleImagePickerSampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleImagePickerSampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09A9824145F85A100BD8510 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A09A982C145F85A100BD8510 /* SimpleImagePickerSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleImagePickerSampleTests-Info.plist"; sourceTree = "<group>"; };
+		A09A982E145F85A100BD8510 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A09A9830145F85A100BD8510 /* SimpleImagePickerSampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleImagePickerSampleTests.h; sourceTree = "<group>"; };
+		A09A9831145F85A100BD8510 /* SimpleImagePickerSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleImagePickerSampleTests.m; sourceTree = "<group>"; };
+		A09A983C145F85C900BD8510 /* SimpleImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleImagePicker.h; path = ../src/SimpleImagePicker.h; sourceTree = "<group>"; };
+		A09A983D145F85C900BD8510 /* SimpleImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleImagePicker.m; path = ../src/SimpleImagePicker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A09A97FF145F85A100BD8510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09A9807145F85A100BD8510 /* UIKit.framework in Frameworks */,
+				A09A9809145F85A100BD8510 /* Foundation.framework in Frameworks */,
+				A09A980B145F85A100BD8510 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09A981F145F85A100BD8510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09A9825145F85A100BD8510 /* SenTestingKit.framework in Frameworks */,
+				A09A9826145F85A100BD8510 /* UIKit.framework in Frameworks */,
+				A09A9827145F85A100BD8510 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A09A97F7145F85A100BD8510 = {
+			isa = PBXGroup;
+			children = (
+				A09A983B145F85BA00BD8510 /* SimpleImagePicker */,
+				A09A980C145F85A100BD8510 /* SimpleImagePickerSample */,
+				A09A982A145F85A100BD8510 /* SimpleImagePickerSampleTests */,
+				A09A9805145F85A100BD8510 /* Frameworks */,
+				A09A9803145F85A100BD8510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A09A9803145F85A100BD8510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A09A9802145F85A100BD8510 /* SimpleImagePickerSample.app */,
+				A09A9823145F85A100BD8510 /* SimpleImagePickerSampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A09A9805145F85A100BD8510 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A09A9806145F85A100BD8510 /* UIKit.framework */,
+				A09A9808145F85A100BD8510 /* Foundation.framework */,
+				A09A980A145F85A100BD8510 /* CoreGraphics.framework */,
+				A09A9824145F85A100BD8510 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A09A980C145F85A100BD8510 /* SimpleImagePickerSample */ = {
+			isa = PBXGroup;
+			children = (
+				A09A9815145F85A100BD8510 /* AppDelegate.h */,
+				A09A9816145F85A100BD8510 /* AppDelegate.m */,
+				A09A9818145F85A100BD8510 /* ViewController.h */,
+				A09A9819145F85A100BD8510 /* ViewController.m */,
+				A09A981B145F85A100BD8510 /* ViewController.xib */,
+				A09A980D145F85A100BD8510 /* Supporting Files */,
+			);
+			path = SimpleImagePickerSample;
+			sourceTree = "<group>";
+		};
+		A09A980D145F85A100BD8510 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A09A980E145F85A100BD8510 /* SimpleImagePickerSample-Info.plist */,
+				A09A980F145F85A100BD8510 /* InfoPlist.strings */,
+				A09A9812145F85A100BD8510 /* main.m */,
+				A09A9814145F85A100BD8510 /* SimpleImagePickerSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A09A982A145F85A100BD8510 /* SimpleImagePickerSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A09A9830145F85A100BD8510 /* SimpleImagePickerSampleTests.h */,
+				A09A9831145F85A100BD8510 /* SimpleImagePickerSampleTests.m */,
+				A09A982B145F85A100BD8510 /* Supporting Files */,
+			);
+			path = SimpleImagePickerSampleTests;
+			sourceTree = "<group>";
+		};
+		A09A982B145F85A100BD8510 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A09A982C145F85A100BD8510 /* SimpleImagePickerSampleTests-Info.plist */,
+				A09A982D145F85A100BD8510 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A09A983B145F85BA00BD8510 /* SimpleImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A09A983C145F85C900BD8510 /* SimpleImagePicker.h */,
+				A09A983D145F85C900BD8510 /* SimpleImagePicker.m */,
+			);
+			name = SimpleImagePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A09A9801145F85A100BD8510 /* SimpleImagePickerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A09A9835145F85A100BD8510 /* Build configuration list for PBXNativeTarget "SimpleImagePickerSample" */;
+			buildPhases = (
+				A09A97FE145F85A100BD8510 /* Sources */,
+				A09A97FF145F85A100BD8510 /* Frameworks */,
+				A09A9800145F85A100BD8510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleImagePickerSample;
+			productName = SimpleImagePickerSample;
+			productReference = A09A9802145F85A100BD8510 /* SimpleImagePickerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A09A9822145F85A100BD8510 /* SimpleImagePickerSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A09A9838145F85A100BD8510 /* Build configuration list for PBXNativeTarget "SimpleImagePickerSampleTests" */;
+			buildPhases = (
+				A09A981E145F85A100BD8510 /* Sources */,
+				A09A981F145F85A100BD8510 /* Frameworks */,
+				A09A9820145F85A100BD8510 /* Resources */,
+				A09A9821145F85A100BD8510 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A09A9829145F85A100BD8510 /* PBXTargetDependency */,
+			);
+			name = SimpleImagePickerSampleTests;
+			productName = SimpleImagePickerSampleTests;
+			productReference = A09A9823145F85A100BD8510 /* SimpleImagePickerSampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A09A97F9145F85A100BD8510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Geekboard;
+			};
+			buildConfigurationList = A09A97FC145F85A100BD8510 /* Build configuration list for PBXProject "SimpleImagePickerSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A09A97F7145F85A100BD8510;
+			productRefGroup = A09A9803145F85A100BD8510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A09A9801145F85A100BD8510 /* SimpleImagePickerSample */,
+				A09A9822145F85A100BD8510 /* SimpleImagePickerSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A09A9800145F85A100BD8510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09A9811145F85A100BD8510 /* InfoPlist.strings in Resources */,
+				A09A981D145F85A100BD8510 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09A9820145F85A100BD8510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09A982F145F85A100BD8510 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A09A9821145F85A100BD8510 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A09A97FE145F85A100BD8510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09A9813145F85A100BD8510 /* main.m in Sources */,
+				A09A9817145F85A100BD8510 /* AppDelegate.m in Sources */,
+				A09A981A145F85A100BD8510 /* ViewController.m in Sources */,
+				A09A983E145F85C900BD8510 /* SimpleImagePicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09A981E145F85A100BD8510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09A9832145F85A100BD8510 /* SimpleImagePickerSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A09A9829145F85A100BD8510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A09A9801145F85A100BD8510 /* SimpleImagePickerSample */;
+			targetProxy = A09A9828145F85A100BD8510 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A09A980F145F85A100BD8510 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09A9810145F85A100BD8510 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A09A981B145F85A100BD8510 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09A981C145F85A100BD8510 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		A09A982D145F85A100BD8510 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09A982E145F85A100BD8510 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A09A9833145F85A100BD8510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A09A9834145F85A100BD8510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A09A9836145F85A100BD8510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleImagePickerSample/SimpleImagePickerSample-Prefix.pch";
+				INFOPLIST_FILE = "SimpleImagePickerSample/SimpleImagePickerSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A09A9837145F85A100BD8510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleImagePickerSample/SimpleImagePickerSample-Prefix.pch";
+				INFOPLIST_FILE = "SimpleImagePickerSample/SimpleImagePickerSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A09A9839145F85A100BD8510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleImagePickerSample.app/SimpleImagePickerSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleImagePickerSample/SimpleImagePickerSample-Prefix.pch";
+				INFOPLIST_FILE = "SimpleImagePickerSampleTests/SimpleImagePickerSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A09A983A145F85A100BD8510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleImagePickerSample.app/SimpleImagePickerSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleImagePickerSample/SimpleImagePickerSample-Prefix.pch";
+				INFOPLIST_FILE = "SimpleImagePickerSampleTests/SimpleImagePickerSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A09A97FC145F85A100BD8510 /* Build configuration list for PBXProject "SimpleImagePickerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09A9833145F85A100BD8510 /* Debug */,
+				A09A9834145F85A100BD8510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A09A9835145F85A100BD8510 /* Build configuration list for PBXNativeTarget "SimpleImagePickerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09A9836145F85A100BD8510 /* Debug */,
+				A09A9837145F85A100BD8510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A09A9838145F85A100BD8510 /* Build configuration list for PBXNativeTarget "SimpleImagePickerSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09A9839145F85A100BD8510 /* Debug */,
+				A09A983A145F85A100BD8510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A09A97F9145F85A100BD8510 /* Project object */;
+}
