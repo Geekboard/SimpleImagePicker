@@ -5,16 +5,33 @@ SimpleImagePicker
 * 'MoreImagePicker' is UIImagePickerController wrapper with some Feature
 
 
-Getting Started
+
+Why I create 'SimpleImagePicker' ?
 ===============
+
+* UIImagePickerController를 사용할때, 카메라가 없는 장비 (old iPad and iPod touches)를 서포트 하기 위해, 매벌 sourcetype을 검사해야합니다.
+이는 매우 귀찮기 때문에 간단하게 사용할 수 있도록 Module화 시켰습니다.
+
+* Due to 'iPad1 and old iPod Touches' don't have camera, to use UIImagePickerController, we have check weather camera is available or not.<br/>
+because it's annoying, i make this module to reuse it.
+
+Getting Started
+===========================
 
 * Project내의 MoreImagePicker.m .h 파일을 프로젝트에 카피해서 쓰시면 됩니다.
 * Just copy MoreImagePicker.m .h file to your project
 
-Featurs
-===============
+Example Code
+---------------------------
 
-* Camera 혹은 PhotoLibrary를 UIActionSheet으로 선택가능하게함. 
-( 카메라가 없는 Device인 경우 카메라 옵션이 제거된 )
-* Display UIActionSheet that User can choose between 'from Camera' and 'Photo Library'
-( if Device don't have Camera, UIActionSheet will not display 'from Camera' option. )
+> SimpleImagePicker *imagePicker = [[SimpleImagePicker alloc] init];<br/>
+> imagePicker.delegate = self;<br/>
+> [imagePicker start]; 
+
+>-(void) imagePickerDelegate:(SimpleImagePicker *) moreImagePicker withPhoto:<(UIImage *) image { <br/>
+>    self.imageView.image = image;<br/>
+>}<br/>
+>-(UIViewController *) viewControllerForImagePicker {<br/>
+>    return self;<br/>
+>}<br/>
+
