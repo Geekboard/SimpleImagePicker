@@ -1,10 +1,9 @@
 SimpleImagePicker
 ===========================
 
-* iOS의 UIImagePickerController의 wrapper class
-* 'MoreImagePicker' is UIImagePickerController wrapper with some Feature
+UIImagePickerController(iOS SDK) wrapper class
 
-
+		No License for this Project.
 
 Why I create 'SimpleImagePicker' ?
 ===============
@@ -18,20 +17,27 @@ because it's annoying, i make this module to reuse it.
 Getting Started
 ===========================
 
-* Project내의 MoreImagePicker.m .h 파일을 프로젝트에 카피해서 쓰시면 됩니다.
-* Just copy MoreImagePicker.m .h file to your project
+* src/SimpleImagePicker.* 파일을 프로젝트에 첨부하시면 됩니다.
+* Just attach src/MoreImagePicker.* files to your project
+
 
 Example Code
 ---------------------------
 
-> SimpleImagePicker *imagePicker = [[SimpleImagePicker alloc] init];<br/>
-> imagePicker.delegate = self;<br/>
-> [imagePicker start]; 
+###SimplaeImagePicker initialize
+	SimpleImagePicker *imagePicker = [[SimpleImagePicker alloc] init];<br/>
+ 	imagePicker.delegate = self;
+ 	[imagePicker start]; 
 
->-(void) imagePickerDelegate:(SimpleImagePicker *) moreImagePicker withPhoto:<(UIImage *) image { <br/>
->    self.imageView.image = image;<br/>
->}<br/>
->-(UIViewController *) viewControllerForImagePicker {<br/>
->    return self;<br/>
->}<br/>
+###SimpleImagePickerDelegate
+	-(void) imagePickerDelegate:(SimpleImagePicker *) moreImagePicker withPhoto:<(UIImage *) image { 
+		//do what ever you want.
+	    self.imageView.image = image;
+	}
+	-(UIViewController *) viewControllerForImagePicker {
+		return self;
+	}
 
+SampleProject
+---------------------------
+	open SimpleImagePickerSample/SimpleImagePicker.xcodeproj with Xcode
